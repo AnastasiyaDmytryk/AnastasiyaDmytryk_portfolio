@@ -40,7 +40,9 @@ h1::before
   width: 90%;
   height: 5%;
   transform: skew(-30deg) translateX(-50%); 
-  background: #FEB845;opacity:0.8;
+  background: #FEB845;
+  margin-top:5%;
+  margin-bottom:5%;
   z-index: -1;
 }
 .info
