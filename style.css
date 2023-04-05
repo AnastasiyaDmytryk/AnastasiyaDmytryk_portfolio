@@ -11,7 +11,7 @@ body
 .together{
   display: inline-block;
   position: relative;
-color:green;
+
 }
 
 h1{
@@ -102,13 +102,7 @@ h2:not(:first-of-type)
   border-radius: 20px;
   margin-bottom: 5%;
 }
-@media screen and (max-width:765px)
-{
-  .nastya{
-    heigh:40%;
-    width:20%;
-  }
-}
+
 #MyS
 {
   padding-left:7%;
@@ -161,7 +155,7 @@ h2
   }
 }
 div.first4{
-padding-left:100px;
+  padding-left:100px;
   display:inline-block;
   margin-bottom: 40px;
 }
@@ -471,5 +465,124 @@ h5{
   border-width: 10px;
   border-bottom-style:solid ;
   margin-top:100px;
+
+}
+
+@media only screen and (max-width:600px)
+{
+  .part1{
+    width:50%;
+    heigh:50%;
+  }
+  .nastya
+  {
+    float:right;
+    vertical-align:top;
+    display:inline-block;
+    height:50%;
+    max-width:40%;
+    margin-top: 2%;
+    border-radius: 20px;
+    margin-bottom: 5%;
+  }
+  .T{
+    font-size: 10px;
+  }
+  #about{
+    font-size: 12px;
+    line-height: 15px;
+  }
+  h2:not(:first-of-type)
+  {
+    font-size:20px;
+  }
+  div.first4{
+    margin-left:5px;
+    padding-left: 10px;
+  }
+  div.second4{
+    margin-left: 5px;
+    padding-left: 10px;
+  }
+  .work
+  {
+    heigh:50%;
+    width:100%;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 12px;
+  }
+  .work2
+    {
+    heigh:70%;
+    width:80%;
+    margin-left: 1%;
+    float:left;
+    font-size:12px;
+    line-height: 30px;
+  }
+}
+@media only screen and (min-width: 600px) 
+{
+  .part1
+  {
+    width:50%;
+    heigh:50%;
+  }
+  .nastya
+  {
+    float:right;
+    vertical-align:top;
+    display:inline-block;
+    height:70%;
+    max-width:45%;
+    margin-top: 2%;
+    border-radius: 20px;
+    margin-bottom: 5%;
+
+  }
+  .T{
+    font-size: 15px;
+  }
+  h2
+  {
+    font-size: 17px;
+  }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) 
+{
+   .T{
+    font-size: 20px;
+  }
+  h2{
+    font-size: 20px;
+  }
+  .part1{
+    width:70%;
+    heigh:50%;
+  }
+  .together{
+    width:70%;
+    heigh:50%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px)
+ {
+  .together{
+    width:70%;
+    heigh:50%;
+  }
+
+
+ }
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) 
+{
 
 }
