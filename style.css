@@ -531,6 +531,7 @@ h5{
   }
   .nastya
   {
+    position: relative;
     float:right;
     vertical-align:top;
     display:inline-block;
@@ -542,6 +543,7 @@ h5{
 
   }
   .T{
+    position: relative;
     font-size: 15px;
   }
   h2
