@@ -102,6 +102,13 @@ h2:not(:first-of-type)
   border-radius: 20px;
   margin-bottom: 5%;
 }
+@media screen and (max-width:765px)
+{
+  .nastya{
+    heigh:40%;
+    width:20%;
+  }
+}
 #MyS
 {
   padding-left:7%;
