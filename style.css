@@ -8,11 +8,6 @@ body
   background-size:cover;
 
 }
-.together{
-  display: inline-block;
-  position: relative;
-
-}
 
 h1{
   position: :relative;
@@ -69,6 +64,93 @@ h2:not(:first-of-type)
   margin-bottom:2%;
   margin-top: 6%;
 }
+
+
+.col-m-3
+{
+
+  width:50%;
+  height:100%;
+  display:grid;
+  float:right;
+  }
+
+  .nastya
+  {
+    margin-top: 40%;
+    vertical-align: middle;
+    width:100%;
+  }
+
+.col-m-4
+{
+
+  width:40%;
+  height:100%;
+  display:grid;
+  float:left;
+  }
+
+#about
+{
+  font-size: 19px;
+  color:hotpink;
+  }
+
+  #MyS
+  {
+    font-size: 10px;
+    letter-spacing: 3px;
+    line-height: 15px;
+   
+  }
+.row-2
+{
+  display:grid;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+.col-3
+  {
+    margin-right: 4%;
+    background-color:green;
+    width:40%;
+    heigh:70%;
+    display:grid;
+    float:right;
+  }
+  
+  .nastya{
+   
+    float:right;
+    width:100%;
+  }
+  .col-4{
+    margin-left: 3%;
+    background-color:blue;
+    float:left;
+    display:grid;
+    width:40%;
+  }
+  .T
+  {
+    letter-spacing: 2px;  
+    line-height: 140%;
+    max-height: 180%;
+    max-width:100%;
+    border-radius: 40px;
+    text-align: center;
+    background-color: #CBD3EC;
+    font-size:150%;
+    font:Lorem;
+  }
+  [class *="col-"]{
+    floar:left;
+    padding:15px;
+  }
+}
 .T
 {
   display: inline-block;
@@ -77,7 +159,7 @@ h2:not(:first-of-type)
   letter-spacing: 2px;  
   line-height: 140%;
   max-height: 180%;
-  width:40%;
+  width:100%;
   border-radius: 40px;
   margin-right:10%;
   text-align: center;
@@ -90,6 +172,7 @@ h2:not(:first-of-type)
   margin-bottom: 5%;
   float:left;
 }
+/*
 .nastya
 {
   float:right;
@@ -468,123 +551,3 @@ h5{
 
 }
 
-@media only screen and (max-width:600px)
-{
-  .part1{
-    width:50%;
-    heigh:50%;
-  }
-  .nastya
-  {
-    float:right;
-    vertical-align:top;
-    display:inline-block;
-    height:50%;
-    max-width:40%;
-    margin-top: 2%;
-    border-radius: 20px;
-    margin-bottom: 5%;
-  }
-  .T{
-    font-size: 10px;
-  }
-  #about{
-    font-size: 12px;
-    line-height: 15px;
-  }
-  h2:not(:first-of-type)
-  {
-    font-size:20px;
-  }
-  div.first4{
-    margin-left:5px;
-    padding-left: 10px;
-  }
-  div.second4{
-    margin-left: 5px;
-    padding-left: 10px;
-  }
-  .work
-  {
-    heigh:50%;
-    width:100%;
-    margin-left: 1%;
-    margin-right: 1%;
-    font-size: 12px;
-  }
-  .work2
-    {
-    heigh:70%;
-    width:80%;
-    margin-left: 1%;
-    float:left;
-    font-size:12px;
-    line-height: 30px;
-  }
-}
-@media only screen and (min-width: 600px) 
-{
-  .part1
-  {
-    width:50%;
-    heigh:50%;
-  }
-  .nastya
-  {
-    position: relative;
-    float:right;
-    vertical-align:top;
-    display:inline-block;
-    height:70%;
-    max-width:45%;
-    margin-top: 2%;
-    border-radius: 20px;
-    margin-bottom: 5%;
-
-  }
-  .T{
-    position: relative;
-    font-size: 15px;
-  }
-  h2
-  {
-    font-size: 17px;
-  }
-
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) 
-{
-   .T{
-    font-size: 20px;
-  }
-  h2{
-    font-size: 20px;
-  }
-  .part1{
-    width:70%;
-    heigh:50%;
-  }
-  .together{
-    width:70%;
-    heigh:50%;
-  }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px)
- {
-  .together{
-    width:70%;
-    heigh:50%;
-  }
-
-
- }
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) 
-{
-
-}
