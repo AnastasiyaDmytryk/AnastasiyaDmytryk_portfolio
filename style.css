@@ -68,7 +68,7 @@ h2:not(:first-of-type)
 
 .col-m-3
 {
-
+background-color: green;
   width:50%;
   height:100%;
   display:grid;
@@ -92,8 +92,8 @@ h2:not(:first-of-type)
 
 #about
 {
-  font-size: 15px;
-  line-height: 10px;
+  font-size: 75%;
+  line-height: 10%;
   color:hotpink;
 }
 
@@ -102,7 +102,7 @@ h2:not(:first-of-type)
     max-height: 100%;
     font-size: 8%;
     letter-spacing: 2px;
-    line-height: 15px;
+    line-height: 130%;
    
   }
 .row-2
