@@ -10,6 +10,7 @@ body
 }
 
 h1{
+  width:90%;
   position: :relative;
   padding-top: 5%;
   font-size: 400%;
@@ -23,7 +24,7 @@ h1{
   text-align:center;
   color:transparent;
   background-image: url("text_back.jpeg");
-  background-size: 100% 100%;
+  background-size: 70% 70%;
   -webkit-background-clip:text;
   
   }
@@ -81,7 +82,7 @@ h2:not(:first-of-type)
   {
 
     width:100%;
-    height:150%;
+    height:100%;
   }
 
 .col-m-4
@@ -376,53 +377,95 @@ z-index: :1;
   margin-top: 2%;
 }
 .cal-5{
-  margin-top: 20%;
+
+  margin-top: -5%;
   float:left;
-  position: relative;
+  position: absolute;
   display: inline-block;
   heigth:100%;
   width:20%;
+  z-index: 7;
+  
+}
+.cal-9{
+
+  margin-top: 0%;
+  float:left;
+  position: absolute;
+  display: inline-block;
+  heigth:100%;
+  width:20%;
+  z-index: 7;
   
 }
 .cal-7{
 
   float:right;
   vertical-align: top;
-
   heigth:50%;
   width:20%;
   margin-top:60%;
+  z-index: 8;
+   position: absolute;
 }
 
 .cal-6{
+  margin-left: 80%;
   margin-top: 50%;
   float:right;
   heigth:100%;
   width:20%;
+  z-index: 9;
+  position: absolute;
+}
+.cal-6s{
+  margin-left: 80%;
+  margin-top: 70%;
+  float:right;
+  heigth:100%;
+  width:20%;
+  z-index: 9;
+  position: absolute;
+}
+.cal-8{
+  margin-left: 80%;
+  margin-top: 130%;
+  float:right;
+  heigth:100%;
+  width:20%;
+  z-index: 9;
+  position: absolute;
 }
 .decor
 {
   max-width:100%;
   height:10%;
-
+  z-index: 9;
 }
 .carousel 
-{
-
-  height:45%;
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-top:8%;
+{justify-content: center;
+  align-items: center;
+  display: flex;
+  width:100%;
+  height:70%;
+  margin-left: 0;
   padding-bottom: 0%;
   position: relative;
+  z-index: 1;
 
     
 }
 .Secondcarousel
 {
-    margin-top: 8%;
-    margin-left: 20%;
-    margin-right: 15%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width:100%;
+  height:70%;
+  margin-left: 0;
+  padding-bottom: 0%;
+  position: relative;
+  z-index: 1;
 }
 
 ul.slides {
@@ -438,6 +481,7 @@ ul.slides {
     padding: 0;
     overflow: hidden;
     list-style: none;
+   
 }
 
 .slides * {
@@ -451,6 +495,7 @@ ul.slides {
 }
 
 ul.slides input {
+  position: relative;
     width: 100%;
     height: 100%;
     display: none; 
@@ -465,9 +510,8 @@ ul.slides input {
 }
 
 .slide-image {
-  border-radius: 50px;
-    
-    margin-left: 5%;
+
+    border-radius: 50px;
     vertical-align:middle;
     display: block;
     position: absolute;
@@ -479,6 +523,8 @@ ul.slides input {
 }   
 
 .slide-image img {
+
+
     border-radius: 50px;
     width: auto;
     width: 100%;
@@ -486,6 +532,7 @@ ul.slides input {
 }
 
 .carousel-controls {
+
     position: absolute;
     top: 0;
     left: 0;
@@ -497,6 +544,7 @@ ul.slides input {
 }
 
 .carousel-controls label {
+
     display: none;
     position: absolute;
     padding: 0 20px;
@@ -505,27 +553,32 @@ ul.slides input {
     cursor: pointer;
 }
 
-.slide-image:hover + .carousel-controls label{
+.slide-image:hover + .carousel-controls label
+{
     opacity: 0.5;
 }
 
-.carousel-controls label:hover {
+.carousel-controls label:hover 
+{
     opacity: 1;
 }
 
-.carousel-controls .prev-slide {
+.carousel-controls .prev-slide 
+{
     width: 49%;
     text-align: left;
     left: 0;
 }
 
-.carousel-controls .next-slide {
+.carousel-controls .next-slid
+ {
     width: 49%;
     text-align: right;
     right: 0;
 }
 
-.carousel-dots {
+.carousel-dots 
+{
     position: absolute;
     left: 0;
     right: 0;
@@ -534,7 +587,8 @@ ul.slides input {
     text-align: center;
 }
 
-.carousel-dots .carousel-dot {
+.carousel-dots .carousel-dot 
+{
     display: inline-block;
     width: 30px;
     height: 30px;
@@ -544,13 +598,15 @@ ul.slides input {
     margin: 10px;
 }
 
-input:checked + .slide-container .slide-image {
+input:checked + .slide-container .slide-image 
+{
     opacity: 1;
     transform: scale(1);
     transition: opacity 1s ease-in-out;
 }
 
-input:checked + .slide-container .carousel-controls label {
+input:checked + .slide-container .carousel-controls label 
+{
      display: block; 
 }
 
