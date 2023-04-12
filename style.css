@@ -13,7 +13,7 @@ h1{
   width:70%;
   position: :relative;
   padding-top: 5%;
-  font-size: 200%;
+  font-size: 340%;
   font-weight:45%;
   font: Lorem;
   font-style: italic;
@@ -40,7 +40,7 @@ h1::before
   transform: skew(-30deg) translateX(-50%); 
   background: #FEB845;
   margin-top:5%;
-  margin-bottom:5%;
+  margin-bottom:15%;
   z-index: -1;
 }
 .info
@@ -94,6 +94,8 @@ h2:not(:first-of-type)
 
 #about
 { 
+  margin-top: 15%;
+  margin-bottom: 10%;
   font-size: 75%;
   line-height: 10%;
   color:hotpink;
@@ -117,7 +119,8 @@ h2:not(:first-of-type)
 
 h2
 {
-  line-height: 50px;
+  margin-bottom: 5%;
+  line-height: 70px;
   color:hotpink;
   text-transform: uppercase;
 }
