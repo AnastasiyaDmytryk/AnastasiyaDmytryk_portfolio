@@ -45,12 +45,15 @@ h1::before
 }
 .info
 {
+  font-size: 12px;
   line-height: 0px;
   padding-top:5%;
   vertical-align: bottom;
   font-family: 'BebasNeueRegular', sans-serif;
   text-align:right;
   color:#7794F9;
+  margin-bottom: 15%;
+
 }
 .repl
 {
