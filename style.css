@@ -712,6 +712,7 @@ div.cal-6s{
 }
 
 div.first4{
+  max-width: 50%;
   padding-left:15%;
 
   margin-bottom: 40px;
@@ -719,7 +720,7 @@ div.first4{
 div.second4{
   vertical-align: top;
   padding-left: 15%;
-
+max-width: 50%;
   margin-bottom: 40px;
 }
 .skills {
