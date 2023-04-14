@@ -284,7 +284,7 @@ h2
 
     padding-block: 5%;
     margin-top: -5%;
-    font-size: 60%;
+    font-size: 55%;
     max-height:40%;
     max-width:80%;
     line-height: 300%;
@@ -338,12 +338,13 @@ h2
     height: 90%;
     letter-spacing: 2px;
     line-height: 50px;
-        font-size: 160%;
+        font-size: 97%;
   }
   p.work3{
+    margin-top: 10%;
     letter-spacing: 2px;
     line-height: 50px;
-        font-size: 160%;
+        font-size: 97%;
   }
   
   div.ww{
@@ -358,7 +359,7 @@ h2
     width:70%;
     border-radius: 40px;
     text-align: center;
-    font-size: 160%;
+    font-size: 100%;
     font-family:'Roboto', sans-serif;
     width:45%;
     padding-block: 15px;
@@ -433,7 +434,7 @@ h2
     position: absolute;
   }
   div.cal-6{
-    margin-left: 80%;
+    margin-left: 90%;
     margin-top: 40%;
     float:right;
     max-height:60%;
