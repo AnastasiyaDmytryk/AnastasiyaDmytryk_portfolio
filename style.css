@@ -89,7 +89,7 @@ h2:not(:first-of-type)
 
 .col-m-4
 {
-    width:45%;
+  width:45%;
   max-height:700%;
   display:grid;
   float:left;
@@ -99,18 +99,21 @@ h2:not(:first-of-type)
 { 
   margin-top: 15%;
   margin-bottom: 10%;
-  font-size: 75%;
+  font-size: 80%;
   line-height: 10%;
   color:hotpink;
 }
 .T{
+
+  width:90%;
+  padding-left: -5%;
   max-height:50%;
 
 }
-  #MyS
+  p.MyS
   {
-
-    font-size: 10%;
+    width:90%;
+    font-size: 5%;
     letter-spacing: 2px;
     line-height: 130%;
    
@@ -122,6 +125,7 @@ h2:not(:first-of-type)
 
 h2
 {
+  font-size: 70%;
   margin-bottom: 5%;
   line-height: 70px;
   color:hotpink;
@@ -178,7 +182,7 @@ h2
     margin-right: 5%;
       }
 
-  p#MyS
+  p.MyS
   {
     background-color: transparent;
     margin-left: 15%;
@@ -223,7 +227,7 @@ h2
     width:35%;
   }
 
-    #MyS
+    .MyS
     {
 
       letter-spacing: 3px;  
@@ -234,7 +238,7 @@ h2
       text-align: center;
       background-color: #CBD3EC;
       font-family:'Roboto', sans-serif;
-      font-size: 25px;
+      font-size: 50%;
 
     }
     [class *="col-"]{
