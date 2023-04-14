@@ -1,6 +1,7 @@
 body
 {
-  font-family: 'BebasNeueRegular', sans-serif;
+
+  font-family:'Roboto', sans-serif;
   background-color:#F6FBFF;
   max-width: 100%;
   height: auto;
@@ -14,8 +15,7 @@ h1{
   position: :relative;
   padding-top: 5%;
   font-size: 340%;
-  font-weight:45%;
-  font: Lorem;
+  font-family:'Roboto', sans-serif;
   font-style: italic;
   text-transform: uppercase;
   margin-top:5%;
@@ -49,7 +49,7 @@ h1::before
   line-height: 0px;
   padding-top:5%;
   vertical-align: bottom;
-  font-family: 'BebasNeueRegular', sans-serif;
+  font-family:'Roboto', sans-serif;
   text-align:right;
   color:#7794F9;
   margin-bottom: 15%;
@@ -128,131 +128,459 @@ h2
   text-transform: uppercase;
 }
 
-@media only screen and (min-width: 768px) {
-
-#MyS
+@media only screen and (min-width: 768px) 
 {
-  padding-left:7%;
-  padding-right: 7%;
-  text-align: :justify;
-  text-justify: inter-character;
-}
-h2
-{
-  line-height: 50px;
-  color:hotpink;
-  text-transform: uppercase;
-}
-.col-3
+    h1{
+      letter-spacing: 3px;
+    width:100%;
+    position: :relative;
+    padding-top: 2%;
+    font-size: 550%;
+    font-weight:45%;
+    font-family:'Roboto', sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-top:5%;
+    margin-left: 0%;
+    margin-right: 5%;
+    text-align:center;
+    color:transparent;
+    background-image: url("text_back.jpeg");
+    background-size: 70% 70%;
+    -webkit-background-clip:text;
+    
+    }
+  h1::before
   {
-
-    margin-inline: 5%;
-
-    width:37%;
-    heigh:70%;
-    display:grid;
-    float:right;
+    content: "";
+    position: absolute;
+    left: 50%;
+    right:95%;
+    bottom: 57%;
+    width: 90%;
+    height: 5%;
+    transform: skew(-30deg) translateX(-50%); 
+    background: #FEB845;
+    margin-top:5%;
+    margin-bottom:5%;
+    z-index: -1;
   }
-  
-  .nastya{
-   height:100%;
+  .info
+  {
+    font-size: 20px;
+    line-height: 0px;
+    padding-top:5%;
+    vertical-align: bottom;
+    font-family: 'BebasNeueRegular', sans-serif;
+    text-align:right;
+    color:#7794F9;
+    margin-bottom: 5%;
+    margin-right: 5%;
+      }
+
+  p#MyS
+  {
+    background-color: transparent;
+    margin-left: 15%;
+    padding-left: 0;
+    height:100%;
+    width:70%;
+    line-height: 150%;
+    font-size: 110%;
+    font-weight: 3px;
+    letter-spacing: 3px;
+  }
+  #s
+  {
+    margin-top: 10%;
+    margin-left: 15%;
+    line-height: 50px;
+    color:hotpink;
+    text-transform: uppercase;
+  }
+  .col-3
+    {
+      margin-inline: 5%;
+      width:37%;
+      heigh:70%;
+      display:grid;
+      float:right;
+    }
+    
+  .nastya
+  {
+    margin-left: -7%;
+    height:100%;
     float:right;
     width:100%;
   }
   .col-4
   {
-    margin-left: 3%;
 
+    margin-left: 5%;
     float:left;
     display:grid;
-    width:40%;
+    width:35%;
   }
 
-  #MyS
+    #MyS
+    {
+
+      letter-spacing: 3px;  
+      line-height: 120%;
+      max-height: 100%;
+      max-width:100%;
+      border-radius: 40px;
+      text-align: center;
+      background-color: #CBD3EC;
+      font-family:'Roboto', sans-serif;
+      font-size: 25px;
+
+    }
+    [class *="col-"]{
+      floar:left;
+      padding:15px;
+    }
+
+    div.second4
+    {
+      letter-spacing: 3px; 
+      font-family:'Roboto', sans-serif;
+      font-size: 23px;
+      margin-left: -7%;
+      vertical-align: top;
+      float:left;
+      display:inline-block;
+      padding-left:0;
+      margin-bottom: 80px;
+      width:40%;
+  }
+  div.T
   {
-    letter-spacing: 2px;  
-    line-height: 100%;
-    max-height: 100%;
-    max-width:100%;
+    height: 100%;
+    margin-top: -1%;
+  }
+  div.first4
+  {
+    font-family:'Roboto', sans-serif;
+    letter-spacing: 3px; 
+    font-size: 23px;
+    margin-left: -9%;
+    width:40%;
+    display:inline-block;
+    margin-bottom: 100px;
+  }
+
+  .container 
+  {
+    margin-left: 0px;
+    border-radius: 50px;
+    padding-left:0;
+    max-width:85%;
+    padding-right: 0; /* Full width */
+    background-color: #ddd; /* Grey background */
+  }
+  div.work
+  {
+    position: relative;
+    border-radius: 50px;
+    background-color: #CBD3EC;
+    letter-spacing: 4px;  
+    line-height: 50px;
+    height:50%;
+    width:60%;
+    border-radius: 40px;
+    margin-right:10%;
+    text-align: center;
+    font-size: 30px;
+    font-family:'Roboto', sans-serif;
+    padding-block: 20px;
+    border-width: 10px;
+    margin-top: 0%;
+    z-index: :1;
+  }
+  a.link_class
+  {text-align: left;
+    margin-left: -5%;
+    font-size: 30px;
+  }
+  h3{
+    margin-left: 5%;
+    width:100%;
+  }
+  a.new{
+    max-lines: 1;
+    font-size: 30px;
+    padding-left: 5px;
+    padding-right: 10px;
+    border-radius: 10px;
+    padding-block: 5px;
+    background-color:#E4E7FD ;.opacity:0.1;
+    color:#FEB845;;
+    letter-spacing: 4px;  
+    line-height: 30px;
+    text-align: center;
+    font-style: italic;
+    font-family:'Roboto', sans-serif;
+    text-shadow: 1px 1px 1px darkblue;
+  }
+  p.work2{
+    line-height: 50px;
+  }
+  
+  div.ww{
+
+    text-align: center;
+    margin-top: 5%;
+    padding-top: 10%;
+    border-radius: 50px;
+    background-color: #CBD3EC;
+    letter-spacing: 4px;  
+    line-height: 40px;
+    height:40%;
+    width:70%;
     border-radius: 40px;
     text-align: center;
+    font-size: 130%;
+    font-family:'Roboto', sans-serif;
+    width:45%;
+    padding-block: 15px;
+    border-width: 10px;
+    margin-left:20%;
+  }
+  
+
+  h2#about
+  {
+    font-size: 70px;
+  }
+  h2
+  {
+    line-height: 40px;
+    letter-spacing: 2px; 
+    font-size: 500px;
+    margin-left: 15%;
+    margin-top: 7%;
+  }
+
+    h2.g{
+      font-size: 70px;
+      line-height: 40px;
+    letter-spacing: 2px; 
+     margin-left: 10%;
+    margin-top: 10%;
+    }
+
+    div.cal-5
+  {
+    margin-left: 70%;
+    margin-top: 5%;
+    float:left;
+    position: absolute;
+    display: inline-block;
+    max-height:60%;
+    max-width:8%;
+    z-index: 7;
+  }
+   div.cal-99
+  {
+    margin-left: 70%;
+    margin-top: -7%;
+    float:left;
+    position: absolute;
+    display: inline-block;
+    max-height:60%;
+    max-width:8%;
+    z-index: 7;
+  }
+  div.cal-9
+  {
+    margin-top: 20%;
+    float:left;
+    position: absolute;
+    display: inline-block;
+    max-height:70%;
+    max-width:10%;
+    z-index: 7;
+    
+  }
+  .cal-7{
+    
+    float:right;
+    vertical-align: top;
+    max-height:0%;
+    max-width:0%;
+  
+    margin-left: 50%;
+    z-index: 8;
+    position: absolute;
+  }
+  div.cal-6{
+    margin-left: 80%;
+    margin-top: 40%;
+    float:right;
+    max-height:60%;
+    max-width:8%;
+    z-index: 9;
+    position: absolute;
+  }
+  div.cal-6s{
+    margin-left: 5%;
+    margin-top: 10%;
+    float:right;
+    max-height:70%;
+    max-width:10%;
+    z-index: 9;
+    position: absolute;
+  }
+  div.cal-5s{
+    margin-left: 10%;
+    margin-top: 40%;
+    float:right;
+    max-height:70%;
+    max-width:10%;
+    z-index: 9;
+    position: absolute;
+  }
+  div.cal-8s{
+    margin-left: 80%;
+    margin-top: 20%;
+    float:right;
+    max-height:70%;
+    max-width:10%;
+    z-index: 9;
+    position: absolute;
+  }
+  div.cal-9s{
+    margin-left: 70%;
+    margin-top: 1%;
+    float:right;
+    max-height:70%;
+    max-width:10%;
+    z-index: 9;
+    position: absolute;
+  }
+  div.cal-8{
+    margin-left: 80%;
+    margin-top: 40%;
+    float:right;
+    max-height:70%;
+    max-width:10%;
+    z-index: 9;
+    position: absolute;
+  }
+  .decor
+  {
+    max-width:100%;
+    height:10%;
+    z-index: 9;
+  }
+  div.carousel 
+  {
+
+    justify-content: center;
+    margin-top: -5%;
+    max-width:50%;
+    height:100%;
+    margin-bottom: -3%;
+    position: relative;
+    z-index: 1;
+    margin-left: 5%;
+  }
+  div.work
+  {
+    position: relative;
+    border-radius: 50px;
     background-color: #CBD3EC;
-    font:Lorem;
-    font-size: 80%;
+    letter-spacing: 4px;  
+    line-height: 50px;
+    height:50%;
+    width:30%;
+    border-radius: 40px;
+    margin-right:10%;
+    text-align: center;
+    font-size: 20px;
+    font-family:'Roboto', sans-serif;
+    padding-block: 20px;
+    border-width: 10px;
+    margin-left: 65%;
+    margin-top: -40%;
+    z-index: :1;
   }
-  [class *="col-"]{
-    floar:left;
-    padding:15px;
+  div.work4
+  {
+    position: relative;
+    border-radius: 50px;
+    background-color: #CBD3EC;
+    letter-spacing: 4px;  
+    line-height: 50px;
+    height:50%;
+    width:30%;
+    border-radius: 40px;
+    margin-right:10%;
+    text-align: center;
+    font-size: 20px;
+    font-family:'Roboto', sans-serif;
+    padding-block: 20px;
+    border-width: 10px;
+    margin-left: 65%;
+    margin-top: -40%;
+    z-index: :1;
+  }
+  div.Star{
+    margin-top: 10%;
+    margin-bottom: 15%;
+  }
+  div.Secondcarousel
+  {
+    justify-content: center;
+    margin-top: -5%;
+    max-width:50%;
+    height:100%;
+    margin-bottom: -3%;
+    position: relative;
+    z-index: 1;
+    margin-left: 5%;
   }
 
-  div.second4{
-
-  vertical-align: top;
-  float:left;
-  display:inline-block;
-  padding-left:0;
-  margin-bottom: 40px;
-  width:30%;
-
+  div.a{
+    text-align: left;
+    border-radius: 40px;
+    margin-top: 6px;
+    margin-left: 17%;
+    display:inline-block;
+    margin-bottom: 50px;
 
 }
-div.first4{
-  width:30%;
-
-  display:inline-block;
-  margin-bottom: 40px;
+a{
+  text-align: left;
 }
 
-.container {
-  margin-left: 0px;
-  border-radius: 50px;
-  padding-left:0;
-  max-width:85%;
-  padding-right: 0; /* Full width */
-  background-color: #ddd; /* Grey background */
+div.b{
+    text-align: left;
+    border-radius: 20px;
+    margin-top: 50px;
+    margin-left: 10%;
+    display:inline-block;
+    margin-bottom: 50px;
+    
 }
-.work{
-  position: relative;
-  border-radius: 50px;
-  background-color: #CBD3EC;
-  letter-spacing: 2px;  
-  line-height: 40px;
-  heigh:60%;
+video{
+  height:60%;
   width:60%;
-  border-radius: 40px;
-  margin-right:10%;
-  text-align: center;
-  font-size: 20px;
-  font:Lorem;
-  padding-block: 20px;
-  border-width: 10px;
-  margin-left:22%;
-  margin-top: 0%;
-z-index: :1;
-
+  border-radius: 50px;
+  margin-top: 50px;
+  margin-left: 20%;
+  padding-block: 1%;
 }
-.work2{
-  background-color: #CBD3EC;
 
-  letter-spacing: 2px;  
-  line-height: 40px;
-  heig:800px;
-  width:90%;
-  border-radius: 40px;
 
-  text-align: center;
-  font-size: 20px;
-  font:Lorem;
-  padding-block: 20px;
-  border-width: 10px;
-
-  margin-top: 2%;
-}
 }
 
 
 
-.T
+
+div.T
 {
   display: inline-block;
   vertical-align: top;
@@ -266,7 +594,7 @@ z-index: :1;
   text-align: center;
   background-color: #CBD3EC;
   font-size:150%;
-  font:Lorem;
+  font-family:'Roboto', sans-serif;
   margin-left: 4%;
   padding-block: 1%;
   text-align: center;
@@ -276,7 +604,51 @@ z-index: :1;
 
 
 
-
+div.cal-6s{
+    margin-left: 5%;
+    margin-top: 10%;
+    float:right;
+    max-height:70%;
+    max-width:10%;
+    z-index: 9;
+    position: absolute;
+  }
+  div.cal-5s{
+    margin-left: 10%;
+    margin-top: 40%;
+    float:right;
+    max-height:70%;
+    max-width:10%;
+    z-index: 9;
+    position: absolute;
+  }
+  div.cal-8s{
+    margin-left: 80%;
+    margin-top: 20%;
+    float:right;
+    max-height:70%;
+    max-width:10%;
+    z-index: 9;
+    position: absolute;
+  }
+  div.cal-9s{
+    margin-left: 70%;
+    margin-top: 10%;
+    float:right;
+    max-height:70%;
+    max-width:10%;
+    z-index: 9;
+    position: absolute;
+  }
+  div.cal-8{
+    margin-left: 80%;
+    margin-top: 130%;
+    float:right;
+    max-height:70%;
+    max-width:10%;
+    z-index: 9;
+    position: absolute;
+  }
 
 /* Container for skill bars */
 .container {
@@ -286,6 +658,9 @@ z-index: :1;
   border-radius: 50px;
   width: 70%; /* Full width */
   background-color: #ddd; /* Grey background */
+}
+.NotDune{
+  margin-bottom: 10%;
 }
 @keyframes load{
   from 
@@ -314,6 +689,10 @@ z-index: :1;
     width: 0%
   }
 }
+.dashed{
+  margin-top: 5%;
+}
+
 div.first4{
   padding-left:15%;
 
@@ -355,34 +734,39 @@ div.second4{
   letter-spacing: 1px;  
   line-height: 40px;
   heigh:60%;
-  width:60%;
+  width:70%;
   border-radius: 40px;
   margin-right:10%;
   text-align: center;
-  font-size: 12px;
-  font:Lorem;
+  font-size: 100%;
+  font-family:'Roboto', sans-serif;
   padding-block: 20px;
   border-width: 10px;
-  margin-left:22%;
-  margin-top: 0%;
-z-index: :1;
-
+  margin-left:15%;
+  margin-top: -5%;
+  z-index: :1;
 }
-.work2{
+.work4{
+  border-radius: 50px;
   background-color: #CBD3EC;
   letter-spacing: 1px;  
   line-height: 40px;
-  heig:100%;
+  heigh:60%;
   width:70%;
   border-radius: 40px;
-  margin-left: 10%;
+  margin-right:10%;
   text-align: center;
-  font-size: 12px;
-  font:Lorem;
+  font-size: 100%;
+  font-family:'Roboto', sans-serif;
   padding-block: 20px;
   border-width: 10px;
-  margin-top: 2%;
+  margin-left:15%;
+  margin-top: -5%;
+  z-index: :1;
+
 }
+
+
 .cal-5{
 
   margin-top: -5%;
@@ -394,7 +778,7 @@ z-index: :1;
   z-index: 7;
   
 }
-.cal-9{
+.cal-99{
 
   margin-top: 0%;
   float:left;
@@ -411,8 +795,8 @@ z-index: :1;
   vertical-align: top;
   heigth:50%;
   width:20%;
-  margin-top:60%;
-  margin-left: 50%;
+  margin-top:40%;
+  margin-left: 60%;
   z-index: 8;
    position: absolute;
 }
@@ -451,7 +835,8 @@ z-index: :1;
   z-index: 9;
 }
 .carousel 
-{justify-content: center;
+{
+  justify-content: center;
   align-items: center;
   display: flex;
   width:100%;
@@ -659,7 +1044,7 @@ video{
   width:60%;
   border-radius: 50px;
   margin-top: 50px;
-  margin-left: 25%;
+  margin-left: 20%;
   padding-block: 1%;
 }
 
@@ -675,7 +1060,7 @@ h2{
 }
 h3{
   margin-top: 10%;
-  margin-left:25%;
+  margin-left:18%;
 }
 .link_class
 {
@@ -688,9 +1073,9 @@ h3{
   letter-spacing: 2px;  
   line-height: 30px;
   text-align: center;
-  font-size: 20px;
+  font-size: 10%;
   font-style: italic;
-  font:Lorem;
+  font-family:'Roboto', sans-serif;
   text-shadow: 1px 1px 1px darkblue;
 }
 .header1{
@@ -720,11 +1105,35 @@ h5{
   text-align:right;
   color:#7794F9;
 }
-.last{
-   border-color:#FEB845 ;
+.last
+{
+  border-color:#FEB845;
   border-width: 10px;
-  border-bottom-style:solid ;
+  border-bottom-style:solid;
   margin-top:100px;
 
 }
+div.ww{
+
+  border-radius: 50px;
+  background-color: #CBD3EC;
+  letter-spacing: 1px;  
+  line-height: 40px;
+  heigh:60%;
+  width:70%;
+  border-radius: 40px;
+  margin-right:10%;
+  text-align: center;
+  font-size: 100%;
+  font-family:'Roboto', sans-serif;
+  padding-block: 20px;
+  border-width: 10px;
+  margin-left:15%;
+
+  z-index: :1;
+
+
+
+  }
+
 
